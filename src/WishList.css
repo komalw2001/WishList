@@ -35,7 +35,7 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 0.4rem;
     margin: 2%;
-    margin-left: -1%;
+    margin-right: 5%;
 }
 
 .btn {
@@ -63,4 +63,50 @@ body {
     margin-left: 5%;
     margin-top: 2%;
     color:darkred;
+}
+
+.item {
+    max-width: 80%;
+}
+
+.btnout {
+    margin-right: 1%;
+}
+
+@media only screen and (max-width: 970px) {
+    .txt {
+        max-width: 60%;
+        min-width: 40%;
+    }
+
+    #add {
+        display: grid;
+    }
+
+    input {
+        max-width: 50%;
+    }
+
+    #addbtn{
+        margin-top: 2%;
+        max-width: 20%;
+    }
+
+    .item {
+        max-width: 70%;
+    }
+
+    .btnout {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .btnin {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list {
+        margin-left: 0;
+    }
 }
