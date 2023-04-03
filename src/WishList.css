@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(255, 247, 238);
+}
+
+#title{
+    margin-left: 5%;
+    color: darkred;
+}
+
+#add {
+    background-color: darksalmon ;
+    color: white;
+    padding-bottom: 1%;
+    padding-left: 5%;
+}
+
+.tf {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.num {
+    margin-right: 5%;
+}
+
+.listitem {
+    background-color: rgb(233, 150, 122,0.5);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.4rem;
+    margin: 2%;
+    margin-left: -1%;
+}
+
+.btn {
+    background-color: white;
+    color: darksalmon;
+    border-color: salmon;
+    border-radius: 1vh;
+}
+
+.txt {
+    margin-left: 2%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    color:darkred;
+}
+
+.priority {
+    font-weight: bold;
+    color:black;
+    font-size: small;
+}
+
+#msg {
+    margin-left: 5%;
+    margin-top: 2%;
+    color:darkred;
+}
