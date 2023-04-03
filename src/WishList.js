@@ -155,7 +155,7 @@ export default class WishList extends React.Component{
                     <input type="text" ref={this.item} class="tf"></input>
                     <label class="lbl">Priority: </label>
                     <input type="number" ref={this.priority} class="num"></input>
-                    <button class="btn" onClick={this.addItem}>Add to List</button>
+                    <button class="btn" id="addbtn" onClick={this.addItem}>Add to List</button>
                 </div>
                 {li}
             </div>
